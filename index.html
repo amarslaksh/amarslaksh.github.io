@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Simple HTML and CSS Responsive Design Template</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&family=Roboto:wght@400;900&family=Ubuntu:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive-style.css">
+</head>
+<body>
+    <div class="container">
+        <!--Header Content-->
+        <div class="header-container">
+            <header>
+                <!--Logo and Main Menu-->
+                <section class="header-main">
+                    <a href="#" class="logo w50">
+                        <img src="assets/images/logo.png" alt="Logo">
+                    </a>
+                    <!-- Hamburger icon -->
+                    <input class="side-menu" type="checkbox" id="side-menu"/>
+                    <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+
+                    <nav class="main-menu w50">
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Our Menu</a></li>
+                            <li><a href="">Promo</a></li>
+                            <li><a href="">Order</a></li>
+                        </ul>
+                    </nav>
+                </section>
+                <!--Header Content-->
+                <section class="header-content">
+                    <h1>Healthy Food <br/>Restaurant</h1>
+                    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h5>
+                </section>
+            </header>
+        </div>
+        <!--Popular Menu Section-->
+        <div class="popular-menu-container">
+            <section class="popular-menu-content">
+                <h3>Popular Menu</h3>
+            </section>
+            <section class="popular-menu-items">
+                <div class="items-wrapper">
+                    <div class="items-container">
+                        <div class="items-image">
+                            <img src="assets/images/noodles.png" alt="Noodles">
+                        </div>
+                        <div class="items-content">
+                            <h4>Noodles</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing...</p>
+                            <p class="price">$13</p>
+                        </div>
+                    </div>
+                    <div class="items-container">
+                        <div class="items-image">
+                            <img src="assets/images/pepper-noodles.png" alt="Pepper Noodles">
+                        </div>
+                        <div class="items-content">
+                            <h4>Noodles</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing...</p>
+                            <p class="price">$13</p>
+                        </div>
+                    </div>
+                    <div class="items-container">
+                        <div class="items-image">
+                            <img src="assets/images/special-noodles.png" alt="Special Noodles">
+                        </div>
+                        <div class="items-content">
+                            <h4>Noodles</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing...</p>
+                            <p class="price">$13</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="show-more">
+                    <button>Show More</button>
+                </div>
+            </section>
+        </div>
+        <!--Promo Section-->
+        <div class="promo-container">
+            <section class="promo-image w50">
+                <img src="assets/images/discount-promo.png" alt="Discount Promo">
+            </section>
+            <section class="promo-content-wrapper w50">
+                <h2>Discount up to<br/>50% All Menu</h2>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                <div class="read-more">
+                    <button>Read More</button>
+                </div>
+            </section>
+            <section class="promo-content-wrapper w50">
+                <h2>January’s Promo: <br/>Buy 1 Get 1 Free!</h2>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                <div class="read-more">
+                    <button>Read More</button>
+                </div>
+            </section>
+            <section class="promo-image right w50">
+                <img src="assets/images/free-promo.png" alt="Free Promo">
+            </section>
+        </div>
+        <!--How To Order Section-->
+        <div class="how-to-order-container">
+            <section class="how-to-order-title">
+                <h4>How to Order</h4>
+            </section>
+            <section class="how-to-order-process">
+                <div class="how-to-order-steps-wrapper">
+                    <div class="step">01</div>
+                    <div class="stepTitle">Order</div>
+                    <div class="stepContent">
+                        Lorem ipsum dolor sit amet, consectetuer
+                        adipiscing elit, tation omne ullamco
+                        labrios nisi ut aliqolore.
+                    </div>
+                </div>
+                <div class="how-to-order-steps-wrapper">
+                    <div class="step">02</div>
+                    <div class="stepTitle">Choose Menu</div>
+                    <div class="stepContent">
+                        Lorem ipsum dolor sit amet, consectetuer
+                        adipiscing elit, tation omne ullamco
+                        labrios nisi ut aliqolore.
+                    </div>
+                </div>
+                <div class="how-to-order-steps-wrapper">
+                    <div class="step">03</div>
+                    <div class="stepTitle">Delivery</div>
+                    <div class="stepContent">
+                        Lorem ipsum dolor sit amet, consectetuer
+                        adipiscing elit, tation omne ullamco
+                        labrios nisi ut aliqolore.
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!--Free Delivery Section-->
+        <div class="free-delivery-container">
+            <section class="free-delivery-title">
+                <h2>Free Delivery</h2>
+            </section>
+            <section class="free-delivery-content">
+                <p>Lorem ipsum dolor sit amet, consectetuer
+                    adipiscing elit, sed diam nonummy nibh
+                    euismod tincidunt ut laoreet dolore magna
+                    aliquam erat volutpat.</p>
+            </section>
+            <section class="free-delivery-button">
+                <button>Get Voucher</button>
+            </section>
+        </div>
+        <!--Testimonial Section-->
+        <div class="testimonial-container">
+            <section class="testimonial-quote">
+                "
+            </section>
+            <section class="testimonial-content">
+                Lorem ipsum dolor sit amet, consectetuer
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam, quis
+            </section>
+            <section class="testimonial-author">
+                Agus Waiters
+            </section>
+            <section class="social-icons">
+                <a  href="#" class="icons">
+                    <img src="assets/icons/fb.png" alt="Facebook">
+                </a>
+                <a href="#" class="icons">
+                    <img src="assets/icons/twitter.png" alt="Twitter">
+                </a>
+                <a href="#" class="icons">
+                    <img src="assets/icons/instagram.png" alt="Instagram">
+                </a>
+            </section>
+        </div>
+        <div class="footer-container">
+            <footer>
+                <div class="footer-content-wrapper w50">
+                    <section class="footer-content">
+                        <h4>About</h4>
+                        <div class="footer-text">
+                            Lorem ipsum dolor sit amet, consectetuer
+                            adipiscing elit, sed do eiusmod tempor incididunt
+                            ulitmam quantum
+                        </div>
+                    </section>
+                </div>
+                <div class="footer-menu-wrapper w50">
+                    <section class="footer-menu ">
+                    <nav class="footer-links">
+                        <span>About</span>
+                        <ul>
+                            <li>
+                                <a href="">Team</a>
+                            </li>
+                            <li>
+                                <a href="">Join us</a>
+                            </li>
+                            <li>
+                                <a href="">Ethic</a>
+                            </li>
+                            <li>
+                                <a href="">Goals</a>
+                            </li>
+                        </ul>
+
+                    </nav>
+                    <nav class="footer-links">
+                        <span>About</span>
+                        <ul>
+                            <li>
+                                <a href="">Team</a>
+                            </li>
+                            <li>
+                                <a href="">Join us</a>
+                            </li>
+                            <li>
+                                <a href="">Ethic</a>
+                            </li>
+                            <li>
+                                <a href="">Goals</a>
+                            </li>
+                        </ul>
+
+                    </nav>
+                    <nav class="footer-links">
+                        <span>About</span>
+                        <ul>
+                            <li>
+                                <a href="">Team</a>
+                            </li>
+                            <li>
+                                <a href="">Join us</a>
+                            </li>
+                            <li>
+                                <a href="">Ethic</a>
+                            </li>
+                            <li>
+                                <a href="">Goals</a>
+                            </li>
+                        </ul>
+
+                    </nav>
+                </section>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
